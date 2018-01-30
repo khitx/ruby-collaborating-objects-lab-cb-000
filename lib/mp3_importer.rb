@@ -9,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    @files = Dir["#{@path}*.mp3"]
+    @files = Dir["#{@path}/*.mp3"]
     binding.pry
   end
   #test_music_path = "./spec/fixtures/mp3s"
